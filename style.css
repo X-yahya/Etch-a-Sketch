@@ -1,0 +1,34 @@
+
+
+header
+{
+    text-align: center;
+    color: #1f1235;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: 0.2px;
+}
+
+body
+{
+    box-sizing: border-box  ;
+}
+.container 
+{
+    display: flex;
+    justify-content: center ;
+
+    flex-wrap: wrap;
+    
+}
+   
+.row 
+{
+    display: flex;
+    width: 60%;
+    
+   }
+   
+   .cell {
+    flex: 1;
+    height: 50px;
+   }
