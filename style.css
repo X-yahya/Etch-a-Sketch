@@ -46,8 +46,9 @@ header {
     font-weight: bold;
     border-radius: 5px;
     height: 30px;
-    width: 50px;
-    border: none;
+    width: 80px;
+    border: 2px solid white;
+
 }
 .options button:hover
 {
@@ -60,4 +61,11 @@ header {
     text-align: center;
     font-weight: bold;
 
+}
+.changeDim
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
