@@ -8,24 +8,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Sketch a book</h1>
-    </header>
     
-   
-    <div class="container"></div>
-    <div class="options">
-        <button class="clear">Clear</button>
-        <button class="black">Black</button>
-        <button class="white">White</button> 
-        <button class="Rgb">Rgb</button>  
+    <header>
+        <h1>Etch a Sketch</h1>
+    </header>
+    <div class="container">
+    
+        
+        <div class="options">
+            <button class="black">Black</button>
+            <button class="Rgb">Rgb</button>
+            <button class="white">Erase</button>
+            <button class="clear">Clear</button>
+        </div>
+        <div id="sketch-area"></div>
+        
+        <div class="dim">
+            <p id="dim">16 x 16</p>
+            <input type="range" min="1" max="64" step="1" id="cell-num">
+        </div>
+    
     </div>
-    <!-- <div class="changeDim">
-           
-        <input type="range" name="range" step=16 min=16 max=128 id="size" >
-        <label for="size">
-            <p class="disSize"></p>
-        </label> 
-    </div> -->
 </body>
 </html>
